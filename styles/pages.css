@@ -1,0 +1,383 @@
+/* Grupo: 01, Número: 62224, Nome: André Alexandre, PL: 26 */
+/* Grupo: 01, Número: 62230, Nome: Guilherme Ribeiro, PL: 26 */
+/* Grupo: 01, Número: 62253, Nome: Rodrigo Jorge, PL: 26 */
+
+
+/* Specific - Main */
+body{
+    margin-bottom: 10em;
+}
+
+
+
+/* Specific - Main */
+#main p{
+    text-align: justify;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#main h3{
+    margin-top: 2em;
+}
+
+#main img{
+    width: 12em;
+}
+
+#title{
+    color: white;
+    margin-top: 0em;
+}
+
+
+
+/* Media Queries */
+@media screen and (min-width: 1250px) {
+    body{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 4em 92%;
+        grid-template-areas: 
+            "header"
+            "center";
+    }
+    
+
+    /* Container */
+    #container{
+        display: grid;
+        grid-template-columns: 10% 80% 10%;
+        grid-template-rows: 110%;
+        grid-template-areas: 
+            ". center .";
+    
+        #main{
+            grid-area: center;
+            margin-bottom: 1em;
+        }
+
+        #title{
+            font-size: 50px;
+            text-shadow: 3px 3px #f05125;
+        }
+    }
+
+
+    /* Container - Results */
+    #container-results{
+        display: grid;
+        grid-template-columns: 10% 40% 40% 10%;
+        grid-template-rows: 110%;
+        grid-template-areas: 
+            ". left right .";
+    
+        #ranking{
+            grid-area: left;
+            margin-top: 5em;
+            margin-left: 5em;
+            margin-right: 5em;
+        }
+
+        #last{
+            grid-area: right;
+            margin-top: 5em;
+            margin-left: 5em;
+            margin-right: 5em;
+        }
+    }
+
+    
+    /* Container - Login */
+    #container-login{
+        display: grid;
+        grid-template-columns: 20% 60% 20%;
+        grid-template-rows: 600% 250%;
+        grid-template-areas: 
+            ". main ."
+            ". button .";
+        
+        #main{
+            grid-area: main;
+            margin-top: 5em;
+            padding-top: 1em;
+        }
+    
+        #button{
+            grid-area: button;
+            margin-top: 5em;
+        }
+
+        #link-right2{
+            display: none;
+        }
+    }
+}
+
+
+
+@media screen  and (max-width: 1250px) and (min-width: 900px){
+    body{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 4em 92%;
+        grid-template-areas: 
+        "header"
+        "center";
+    }
+    
+
+    /* Container */
+    #container{
+        display: grid;
+        grid-template-columns: 5% 90% 5%;
+        grid-template-rows: 110%;
+        grid-template-areas: 
+            ". center .";
+    
+        #main{
+            grid-area: center;
+            margin-bottom: 1em;
+        }
+
+        #title{
+            font-size: 50px;
+            text-shadow: 3px 3px #f05125;
+        }
+    }
+
+    #container-results{
+        display: grid;
+        grid-template-columns: 5% 45% 45% 5%;
+        grid-template-rows: 110%;
+        grid-template-areas: 
+            ". left right .";
+    
+        #ranking{
+            grid-area: left;
+            margin-top: 5em;
+            margin-left: 4em;
+            margin-right: 4em;
+        }
+
+        #last{
+            grid-area: right;
+            margin-top: 5em;
+            margin-left: 4em;
+            margin-right: 4em;
+        }
+    }
+
+
+    /* Container - Login */
+    #container-login{
+        display: grid;
+        grid-template-columns: 20% 60% 20%;
+        grid-template-rows: 650% 250%;
+        grid-template-areas: 
+            ". main ."
+            ". button .";
+        
+        #main{
+            grid-area: main;
+            margin-top: 5em;
+            padding-top: 1em;
+        }
+    
+        #button{
+            grid-area: button;
+            margin-top: 5em;
+        }
+
+        #link-right{
+            display: none;
+        }
+
+        #link-right2{
+            display: block;
+        }
+    }
+}
+
+
+
+@media screen  and (max-width: 900px) and (min-width: 600px){
+    body{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 4em 94%;
+        grid-template-areas: 
+        "header"
+        "center";
+    }
+    
+
+    /* Container */
+    #container{
+        display: grid;
+        grid-template-columns: 8% 84% 8%;
+        grid-template-rows: 105%;
+        grid-template-areas: 
+            ". center .";
+
+        #main{
+            grid-area: center;
+            margin-bottom: 1em;
+        }
+
+        #title{
+            font-size: 50px;
+            text-shadow: 3px 3px #f05125;
+        }
+    }
+
+    #container-results{
+        display: grid;
+        grid-template-columns: 15% 35% 35% 15%;
+        grid-template-rows: 80% 80% 15%;
+        grid-template-areas: 
+            ". left left ."
+            ". right right ."
+            ". space space .";
+    
+        #ranking{
+            grid-area: left;
+            margin-top: 5em;
+            margin-left: 3em;
+            margin-right: 3em;
+        }
+
+        #last{
+            grid-area: right;
+            margin-top: 5em;
+            margin-left: 3em;
+            margin-right: 3em;
+        }
+
+        #space{
+            grid-area: space;
+            margin-bottom: 0em;
+        }
+    }
+
+
+    /* Container - Login */
+    #container-login{
+        display: grid;
+        grid-template-columns: 10% 80% 10%;
+        grid-template-rows: 680% 250%;
+        grid-template-areas: 
+            ". main ."
+            ". button .";
+        
+        #main{
+            grid-area: main;
+            margin-top: 5em;
+            padding-top: 1em;
+        }
+    
+        #button{
+            grid-area: button;
+            margin-top: 5em;
+        }
+
+        #link-right{
+            display: none;
+        }
+
+        #link-right2{
+            display: block;
+        }
+    }
+}
+
+
+
+@media screen  and (max-width: 600px){
+    body{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 4em 97%;
+        grid-template-areas: 
+        "header"
+        "center";
+    }
+
+
+    /* Container */
+    #container{
+        display: grid;
+        grid-template-columns: 5% 90% 5%;
+        grid-template-rows: 102%;
+        grid-template-areas: 
+            ". center .";
+    
+        #main{
+            grid-area: center;
+            margin-bottom: 1em;
+        }
+
+        #title{
+            font-size: 30px;
+            text-shadow: 2px 2px #f05125;
+        }
+    }
+
+    #container-results{
+        display: grid;
+        grid-template-columns: 5% 45% 45% 5%;
+        grid-template-rows: 80% 80% 15%;
+        grid-template-areas: 
+            ". left left ."
+            ". right right ."
+            ". space space .";
+    
+        #ranking{
+            grid-area: left;
+            margin-top: 5em;
+            margin-left: 3em;
+            margin-right: 3em;
+        }
+
+        #last{
+            grid-area: right;
+            margin-top: 5em;
+            margin-left: 3em;
+            margin-right: 3em;
+        }
+
+        #space{
+            grid-area: space;
+            margin-bottom: 0em;
+        }
+    }
+
+    /* Container - Login */
+    #container-login{
+        display: grid;
+        grid-template-columns: 10% 80% 10%;
+        grid-template-rows: 680% 250%;
+        grid-template-areas: 
+            ". main ."
+            ". button .";
+        
+        #main{
+            grid-area: main;
+            margin-top: 5em;
+            padding-top: 1em;
+        }
+    
+        #button{
+            grid-area: button;
+            margin-top: 5em;
+        }
+
+        #link-right{
+            display: none;
+        }
+
+        #link-right2{
+            display: block;
+        }
+    }
+}

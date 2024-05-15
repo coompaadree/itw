@@ -1,0 +1,33 @@
+Ao longo do trabalho, optamos por utilizar diversos métodos de resolução conforme as necessidades de cada etapa.
+
+Inicialmente, pensamos numa framework que nos permitia dividir a construção de várias páginas por cada um, sendo 
+o responsável por uma página HTML também responsável pelo seu CSS. No entanto, percebemos que quando começou 
+a ser necessário utilizar o CSS a sério, os nossos designs começaram a divergir e tomar diferentes rumos estruturais.
+Foi nesse momento que optamos por definir linhas de design mais gerais ao nível da estrutura, a partir da quais 
+guiamos a maior parte do nosso trabalho.
+
+
+
+André Alexandre:
+Eu fui responsável por criar a framework estrutural pela qual organizamos a estrutura base so nosso trabalho. 
+A estrutura do site e a uniformidade que o mesmo apresenta foi criada por mim. Desta forma, fui em quem criei 
+o HTML home e o CSS main que acabaram por servir de base para todas as outras páginas. Também ajudei um pouco
+na redimensionização.
+
+Guilherme Ribeiro:
+Eu criei fui responsável pela parte da adaptação da estrutura principal para as diferentes páginas existentes, 
+tendo acabado por cuidar dos erros da estrutura principal quando utilizada nas outras páginas. Além disso, 
+juntamente com o Rodrigo, escolhi as cores e a estética superficial do projeto
+
+Rodrigo Jorge:
+Eu cuidei de grande parte da redimensionização, algo que acabei por ter que estar a atualizar e melhorar 
+constantemente dependendo de certas alteração que eram sendo feitas na estrutura principal. Além disso, também
+ajudei a defenir as cores e estética do projeto.
+
+
+
+Proporções:
+
+André Alexandre: 40%
+Guilherme Ribeiro: 30%
+Rodrigo Jorge: 30%

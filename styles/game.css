@@ -1,0 +1,238 @@
+/* Grupo: 01, Número: 62224, Nome: André Alexandre, PL: 26 */
+/* Grupo: 01, Número: 62230, Nome: Guilherme Ribeiro, PL: 26 */
+/* Grupo: 01, Número: 62253, Nome: Rodrigo Jorge, PL: 26 */
+
+
+/* Main Structure */
+#cards{
+    color: #000000;
+    background: #ffffff;
+    text-align: center;
+    border-radius: 1em;
+    box-shadow: 0 0 0 0.2em #898989;
+}
+
+.cardNum {
+    position: absolute;
+    margin-top: -7px;
+    margin-left: -3px;
+}
+
+
+/* Media Queries */
+@media screen and (min-width: 1250px) {
+    body{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 4em 90%;
+        grid-template-areas: 
+            "header"
+            "container";
+    }
+    
+
+    /* Main Structure */
+    #container{
+        margin-top: 5em;
+        margin-bottom: 50em;
+        grid-area: container;
+        width: 720px;
+    }
+
+
+    /* Container */
+    #container{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 100%;
+        grid-template-areas: 
+            "center";
+    
+        #cards {
+            display: grid;
+            grid-template-columns: repeat(4, 8em);
+            grid-template-rows: repeat(5, 8em);
+            grid-gap: 3em;
+            box-sizing: border-box;
+            padding: 2em;
+            margin-bottom: -56em;
+        }
+              
+        #cards > div {
+            background-color: #ffeae5;
+            padding: 1em;
+            box-shadow: 0 0 0 0.2em #898989;
+            border-radius: 1em;
+            cursor: pointer;
+        }
+
+        #cards img {
+            width: 4.5em;
+            margin-top: 0.65em;
+        }
+    }
+}
+
+
+
+@media screen  and (max-width: 1250px) and (min-width: 900px){
+    body{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 4em 90%;
+        grid-template-areas: 
+            "header"
+            "container";
+    }
+    
+
+    /* Main Structure */
+    #container{
+        margin-top: 5em;
+        margin-bottom: 46em;
+        grid-area: container;
+        width: 620px;
+    }
+
+
+    /* Container */
+    #container{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 100%;
+        grid-template-areas: 
+            "center";
+    
+        #cards {
+            display: grid;
+            grid-template-columns: repeat(4, 7em);
+            grid-template-rows: repeat(5, 7em);
+            grid-gap: 2.25em;
+            box-sizing: border-box;
+            padding: 2em;
+            margin-bottom: -48em;
+        }
+              
+        #cards > div {
+            background-color: #ffeae5;
+            padding: 1em;
+            box-shadow: 0 0 0 0.2em #898989;
+            border-radius: 1em;
+            cursor: pointer;
+        }
+
+        #cards img {
+            width: 3.5em;
+            margin-top: 0.65em;
+        }
+    }
+}
+
+
+
+@media screen  and (max-width: 900px) and (min-width: 600px){
+    body{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 4em 90%;
+        grid-template-areas: 
+            "header"
+            "container";
+    }
+    
+
+    /* Main Structure */
+    #container{
+        margin-top: 5em;
+        margin-bottom: 34em;
+        grid-area: container;
+        width: 480px;
+    }
+
+
+    /* Container */
+    #container{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 100%;
+        grid-template-areas: 
+            "center";
+    
+        #cards {
+            display: grid;
+            grid-template-columns: repeat(4, 5.5em);
+            grid-template-rows: repeat(5, 5.5em);
+            grid-gap: 1.68em;
+            box-sizing: border-box;
+            padding: 1.5em;
+            margin-bottom: -37.4em;
+        }
+              
+        #cards > div {
+            background-color: #ffeae5;
+            padding: 1em;
+            box-shadow: 0 0 0 0.2em #898989;
+            border-radius: 1em;
+            cursor: pointer;
+        }
+
+        #cards img {
+            width: 3em;
+            margin-top: 0.40em;
+        }
+    }
+}
+
+
+
+@media screen  and (max-width: 600px){
+    body{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 4em 10%;
+        grid-template-areas: 
+            "header"
+            "container";
+    }
+    
+
+    /* Main Structure */
+    #container{
+        margin-top: 5em;
+        margin-bottom: 10em;
+        grid-area: container;
+        width: 350px;
+    }
+
+
+    /* Container */
+    #container{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 100%;
+        grid-template-areas: 
+            "center";
+    
+        #cards {
+            display: grid;
+            grid-template-columns: repeat(4, 4em);
+            grid-template-rows: repeat(5, 4em);
+            grid-gap: 1.3em;
+            box-sizing: border-box;
+            padding: 1em;
+            margin-bottom: -27.3em;
+        }
+              
+        #cards > div {
+            background-color: #ffeae5;
+            padding: 1em;
+            box-shadow: 0 0 0 0.2em #898989;
+            border-radius: 1em;
+            cursor: pointer;
+        }
+
+        #cards img {
+            width: 2em;
+        }
+    }
+}

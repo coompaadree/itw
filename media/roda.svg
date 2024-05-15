@@ -1,0 +1,15 @@
+
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="156px" width="156px">
+	<path id="circle" d="M 64,0 A 64,64 0 0 1 -64,0 A 64,64 0 0 1 64,0" transform="translate(78,78)" fill="none" stroke="#f05125" stroke-width="25"/>
+  
+	<text style="stroke: #000000;" fill="white" stroke-width="0">
+      <textPath xlink:href="#circle">
+        <tspan dy="5">
+          COMO JOGAR! &#160;&#160;&#160;&#160;&#160; COMO JOGAR!&#160;&#160;&#160;&#160;&#160; COMO JOGAR!
+        </tspan>
+      </textPath>
+    </text>
+</svg>
+
+

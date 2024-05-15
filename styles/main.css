@@ -1,0 +1,861 @@
+/* Grupo: 01, Número: 62224, Nome: André Alexandre, PL: 26 */
+/* Grupo: 01, Número: 62230, Nome: Guilherme Ribeiro, PL: 26 */
+/* Grupo: 01, Número: 62253, Nome: Rodrigo Jorge, PL: 26 */
+
+
+body{
+    font-family: "Poppins", Sans-Serif;
+    margin-bottom: 10em;
+    margin-top: 0em;
+    margin-left: 0em;
+    margin-right: 0em;
+    color: white;
+    background-color: #ffeae5;
+}
+
+
+
+/* Main Structure */
+header{
+    position: relative;
+    top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    background-color: #000000;
+    text-align: center;
+    border-radius: 1em;
+    color: white;
+    font-weight: 700 !important;
+    box-shadow: 0.2em 0.2em 0 0.05em #f05125;
+}
+
+#inicial{
+    font-family: "Serat", Sans-Serif;
+    letter-spacing: 0px;
+    color: #f05125;
+    margin-top: -1.5em;
+    text-align: center;
+    font-size: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#container{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.background{
+    background-color: #ffc0ae;
+}
+
+#main{
+    color: #ffffff;
+    background: #000000;
+    text-align: center;
+    border-radius: 1em;
+    box-shadow: 0.2em 0.2em 0 0.05em #f05125;
+}
+
+#ranking{
+    background: #000000;
+    text-align: center;
+    border-radius: 1em;
+    box-shadow: 0.2em 0.2em 0 0.05em #f05125;
+    text-shadow: 1px 1px #f05125;
+}
+
+#last{
+    background: #000000;
+    text-align: center;
+    border-radius: 1em;
+    box-shadow: 0.2em 0.2em 0 0.05em #f05125;
+    text-shadow: 1px 1px #f05125;
+}
+
+
+
+/* Header */
+#left{
+    font-size: 24px;
+    float: right;
+    position: absolute;
+    left: 3em;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#center{
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#center a{
+    border: 0.6em solid transparent;
+}
+
+#center a:hover{
+    background: #f05125;
+    border: 0.6em solid #f05125;
+    border-radius: 0.5em;
+}
+
+#right{
+    font-size: 24px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.vr{
+    border-top: 0.3em solid #f05125;
+    border-bottom: 0.3em solid #f05125;
+    border-left: 0.2em solid #f05125;
+    border-radius: 10em;
+}
+         
+#right2 img{
+    width: 1.3em;
+    position: absolute;
+    right: 1em;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#info {
+    text-align: center;
+}
+
+#account {
+    width: 10vw;
+}
+
+
+
+/* Inicial */
+#inicial-bottom{
+    font-family: "Poppins", Sans-Serif;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+#inicial-bottom2{
+    font-family: "Poppins", Sans-Serif;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+
+
+/* Main */
+#content{
+    text-align: justify;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#main img{
+    width: 12em;
+}
+
+#title{
+    font-size: 50px;
+    color: white;
+    text-shadow: 3px 3px #f05125;
+    margin-top: 0em;
+}
+
+#subtitle{
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: #2d2d2d;
+    padding: 0.4em;
+    border-radius: 2em;
+    margin-bottom: 2em;
+}
+
+h4{
+    text-align: center;
+    margin-top: 4em;
+}
+
+#email{
+    display: block;
+    margin-top: 2em;
+}
+
+#pws{
+    display: block;
+    margin-top: 2em;
+}
+
+#psw-repeat{
+    display: block;
+    margin-top: 2em;
+}
+
+#end{
+    display: block;
+    margin-top: 2em;
+}
+
+
+
+/* Raking */
+#ranking img{
+    margin-right: 50%;
+    margin-bottom: 2em;
+    width: 3em;
+}
+
+
+
+/* Login */
+#links{
+    margin-top: 4em;
+}
+
+#link-left{
+    margin: 2em;
+    border-radius: 2em;
+    border: 0.2em solid transparent;
+}
+
+#link-left:hover{
+    border: 0.2em solid #2d2d2d;
+    background-color: #2d2d2d;
+}
+
+#link-right{
+    margin: 2em;
+    border-radius: 2em;
+    border: 0.2em solid transparent;
+}
+
+#link-right:hover{
+    border: 0.2em solid #2d2d2d;
+    background-color: #2d2d2d;
+}
+
+#link-right2{
+    margin: 1em;
+    border-radius: 2em;
+    border: 0.2em solid transparent;
+}
+
+#link-right2:hover{
+    border: 0.2em solid #2d2d2d;
+    background-color: #2d2d2d;
+}
+
+
+
+/* Buttons */
+#button{
+    text-align: center;
+    background: black;
+    box-shadow: 0.2em 0.2em 0 0.05em #f05125;
+    padding: 0.2em;
+    border-radius: 1em;
+    cursor: pointer;
+    color: #ffffff;
+    margin-bottom: 1em;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#button:hover p{
+    color: #000000;
+}
+
+#button:hover{
+    background: #dadada;
+}
+
+#button-inicial{
+    font-family: "Poppins", Sans-Serif;
+    letter-spacing: 0px;
+    text-align: center;
+    background: black;
+    box-shadow: 0.2em 0.2em 0 0.05em #f05125;
+    padding: 0.2em;
+    border-radius: 1em;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+#button-inicial:hover p{
+    color: #000000;
+}
+
+#button-inicial:hover{
+    background: #dadada;
+}
+
+
+
+/* Video */
+#video {
+    border: #f05125 0.1em solid;
+    border-radius: 1em;
+}
+
+
+
+/* SVG */
+#svg {
+    height: auto;
+    width: 1.6em;
+    margin-left: -0.02em;
+    margin-right: -0.07em;
+    margin-top: 1em;
+    border-radius: 1000px;
+    border: 0.05em solid transparent;
+}
+
+#svg:hover {
+    background: #000000;
+    z-index: 1;
+    border: 0.05em solid #000000;
+}
+
+
+
+/* Internal Links */
+a:link{
+    text-decoration: none;
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+a:hover{
+    color: white;
+}
+
+
+
+/* Media Queries */
+@media screen and (min-width: 1250px) {
+    body{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 4em 50% 62% 6%;
+        grid-template-areas: 
+            "header"
+            "inicial" 
+            "center";
+    }
+    
+
+    /* Main Structure */
+    header{
+        grid-area: header;
+    }
+
+    #inicial{
+        grid-area: inicial;
+    }
+
+    #container{
+        grid-area: center;
+        width: 1200px;
+    }
+
+    .background{
+        margin-top: -6em;
+    }
+
+
+    /* Header */
+    #right2{
+        display:none;
+    }
+
+    .vr{
+        margin-right: 2em;
+        margin-left: 2em;
+    }
+
+
+    /* Inicial */
+    #inicial-left{
+        margin-right: 1em;
+    }
+    
+    #inicial-right{
+        margin-top: -1em;
+        margin-left: 2.2em;
+    }
+
+    #inicial-bottom{
+        font-size: 35px;
+        margin-top: -1em;
+        margin-left: 18em;
+    }
+    
+    #inicial-bottom2{
+        font-size: 35px;
+        margin-top: -1em;
+        margin-left: 22em;
+    }
+
+
+    /* Container */
+    #container{
+        display: grid;
+        grid-template-columns: 30% 40% 30%;
+        grid-template-rows:92% 8%;
+        grid-template-areas: 
+            "left center right"
+            ". button .";
+    
+        #main{
+            grid-area: center;
+            padding: 2em;
+            margin-top: 5em;
+            margin-bottom: 2em;
+        }
+    
+        #ranking{
+            grid-area: left;
+            margin: 3em;
+            margin-bottom: 20em;
+            margin-top: 10em;
+        }
+    
+        #last{
+            grid-area: right;
+            margin: 3em;
+            margin-bottom: 20em;
+            margin-top: 10em;
+        }
+    
+        #button{
+            width: 8vw;
+            grid-area: button;
+        }
+    }
+
+    
+    /* Video */
+    #video {
+        height: auto;
+        width: 40em;
+    }
+
+
+    /* Buttons */
+    #button{
+        width: 8vw;
+        grid-area: button;
+    }
+
+    #button-inicial{
+        font-size: 22px;
+        position: relative;
+        width: 10em;
+        top: -10%;
+        left: 23%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+
+
+@media screen  and (max-width: 1250px) and (min-width: 900px){
+    body{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 4em 40% 62%;
+        grid-template-areas: 
+        "header"
+        "inicial" 
+        "center"
+    }
+    
+
+    /* Main Structure */
+    header{
+        grid-area: header;
+    }
+
+    #inicial{
+        grid-area: inicial;
+        font-size: 40px;
+        margin-top: -1em;
+    }
+
+    #container{
+        grid-area: center;
+        width: 880px;
+    }
+
+    .background{
+        margin-top: 15em;
+        margin-bottom: -75em;
+    }
+
+
+    /* Header */
+    #right{
+        display: block;
+    }
+
+    #right2{
+        display: none;
+    }
+
+    .vr{
+        margin-right: 1em;
+        margin-left: 1em;
+    }
+
+
+    /* Inicial */
+    #inicial-left{
+        margin-right: 1em;
+    }
+    
+    #inicial-right{
+        margin-top: -1em;
+        margin-left: 2.2em;
+    }
+
+    #inicial-bottom{
+        font-size: 25px;
+        margin-top: -1em;
+        margin-left: 18em;
+    }
+    
+    #inicial-bottom2{
+        font-size: 25px;
+        margin-top: -1em;
+        margin-left: 22em;
+    }
+
+
+    /* Container */
+    #container{
+        display: grid;
+        grid-template-columns: 10% 40% 40% 10%;
+        grid-template-rows: 48% 44% 4%;
+        grid-template-areas: 
+            ". center center ."
+            ". left right ."
+            ". button button .";
+    
+        #main{
+            grid-area: center;
+            padding: 1em;
+            margin-top: 5em;
+            margin-bottom: 0em;
+        }
+    
+        #ranking{
+            grid-area: left;
+            margin: 3em;
+            margin-bottom: 8em;
+            margin-top: 4em;
+        }
+    
+        #last{
+            grid-area: right;
+            margin: 3em;
+            margin-bottom: 8em;
+            margin-top: 4em;
+        }
+    
+        #button{
+            width: 12vw;
+            grid-area: button;
+            margin-top: -2em;
+        }
+    }
+
+
+    /* Video */
+    #video {
+        height: auto;
+        width: 35em;
+    }
+
+
+    /* Buttons */
+    #button{
+        width: 18vw;
+    }
+
+    #button-inicial{
+        font-size: 16px;
+        width: 10em;
+        position: relative;
+        top: -7%;
+        left: 22%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+
+
+@media screen  and (max-width: 900px) and (min-width: 600px){
+    body{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 4em 40% 62%;
+        grid-template-areas: 
+        "header"
+        "inicial" 
+        "center"
+    }
+    
+
+    /* Main Structure */
+    header{
+        grid-area: header;
+    }
+
+    #inicial{
+        grid-area: inicial;
+        font-size: 32px;
+        margin-top: -1em;
+    }
+
+    #container{
+        grid-area: center;
+        width: 580px;
+    }
+
+    .background{
+        margin-top: 18em;
+        margin-bottom: -120em;
+    }
+
+
+    /* Header */
+    #center{
+        display: none;
+    }
+
+    #right{
+        display: none;
+    }
+
+    #right2{
+        display:block;
+    }
+
+
+    /* Inicial */
+    #inicial-right{
+        margin-top: -1em;
+    }
+
+    #inicial-bottom{
+        font-size: 24px;
+        margin-top: -0.5em;
+    }
+    
+    #inicial-bottom2{
+        font-size: 24px;
+        margin-top: -1.5em;
+    }
+
+
+    /* Container */
+    #container{
+        display: grid;
+        grid-template-columns: 10% 40% 40% 10%;
+        grid-template-rows: 44% 40% 30% 8.5%;
+        grid-template-areas: 
+            ". center center ."
+            ". left left ."
+            ". right right ."
+            ". button button .";
+    
+        #main{
+            grid-area: center;
+            padding: 1em;
+            margin-top: 5em;
+            margin-bottom: -10em;
+        }
+    
+        #ranking{
+            grid-area: left;
+            margin: 3em;
+            margin-bottom: 0em;
+            margin-top: 14em;
+        }
+    
+        #last{
+            grid-area: right;
+            margin: 3em;
+            margin-bottom: 0em;
+            margin-top: 4em;
+        }
+    
+        #button{
+            width: 12vw;
+            grid-area: button;
+            margin-top: 2.5em;
+        }
+    }
+
+
+    /* Video */
+    #video {
+        height: auto;
+        width: 25em;
+    }
+
+
+    /* Buttons */
+    #button{
+        width: 18vw;
+    }
+
+    #button-inicial{
+        font-size: 12px;
+        width: 10em;
+        position: relative;
+        top: 5%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+
+
+@media screen  and (max-width: 600px){
+    body{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 4em 24% 62%;
+        grid-template-areas: 
+        "header"
+        "inicial" 
+        "center"
+    }
+
+    
+    /* Main Structure */
+    header{
+        grid-area: header;
+    }
+
+    #inicial{
+        grid-area: inicial;
+        font-size: 24px;
+        margin-top: -0.2em;
+    }
+
+    #container{
+        grid-area: center;
+        width: 350px;
+    }
+
+    .background{
+        margin-top: 18em;
+        margin-bottom: -124em;
+    }
+
+
+    /* Header */
+    #center{
+        display: none;
+    }
+
+    #right{
+        display: none;
+    }
+
+    #right2{
+        display:block;
+    }
+
+
+    /* Inicial */
+    #inicial-right{
+        margin-top: -1em;
+    }
+
+    #inicial-bottom{
+        font-size: 20px;
+        margin-top: -0.5em;
+    }
+    
+    #inicial-bottom2{
+        font-size: 20px;
+        margin-top: -1.5em;
+    }
+
+
+    /* Container */
+    #container{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 35% 25% 7%;
+        grid-template-areas: 
+            "center"
+            "left"
+            "right"
+            "button";
+    
+        #main{
+            grid-area: center;
+            padding: 1em;
+            margin-top: 5em;
+            margin-bottom: -10em;
+        }
+    
+        #ranking{
+            grid-area: left;
+            margin: 1em;
+            margin-bottom: 0em;
+            margin-top: 14em;
+        }
+    
+        #last{
+            grid-area: right;
+            margin: 1em;
+            margin-bottom: 0em;
+            margin-top: 4em;
+        }
+    
+        #button{
+            width: 16vw;
+            grid-area: button;
+            margin-top: 1.5em;
+        }
+    }
+
+
+    /* Video */
+    #video {
+        height: auto;
+        width: 15em;
+    }
+    
+
+    /* Buttons */
+    #button{
+        width: 18vw;
+    }
+
+    #button-inicial{
+        font-size: 12px;
+        width: 10em;
+        position: relative;
+        top: 5%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
